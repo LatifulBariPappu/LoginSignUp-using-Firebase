@@ -63,6 +63,16 @@
                 android:layout_marginTop="30dp"
                 android:backgroundTint="@color/lavender"
                 app:cornerRadius="20dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/loginRedirextText"
+                android:layout_gravity="center"
+                android:padding="8dp"
+                android:text="Already an user? Login"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/lavender"
+                android:textSize="18sp"/>
         </LinearLayout>
     </androidx.cardview.widget.CardView>
 
