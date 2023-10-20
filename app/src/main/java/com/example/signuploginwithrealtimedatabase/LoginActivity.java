@@ -28,7 +28,6 @@ public class LoginActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
-
         auth=FirebaseAuth.getInstance();
         loginEmail=findViewById(R.id.login_email);
         loginPassword=findViewById(R.id.login_password);
@@ -59,7 +58,6 @@ public class LoginActivity extends AppCompatActivity {
                                 });
                     }else{
                         loginPassword.setError("Password cannot be empty");
-
                     }
                     if (email.isEmpty()) {
                         loginEmail.setError("Email cannot be empty");
